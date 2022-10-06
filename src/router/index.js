@@ -16,14 +16,37 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ "../views/Web.vue"),
+  },
+  {
+    path: "/base64",
+    name: "Base64",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/base64.vue"),
+  },
+  {
+    path: "/weak_password",
+    name: "weak_password",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/weak_password.vue"),
   },
   {
     path: "/misc",
     name: "Misc",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/question.vue"),
+  },
+  {
+    path: "/bin",
+    name: "Bin",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/C_build.vue"),
   },
 ];
 
