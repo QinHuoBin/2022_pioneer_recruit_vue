@@ -1,4 +1,4 @@
-# 2022_pioneer_recruit
+# 2022_pioneer_recruit_vue
 
 ## Project setup
 ```
