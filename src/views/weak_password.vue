@@ -17,7 +17,7 @@
         const messageHex = CryptoJS.enc.Utf8.parse(text);
         var encrypted = CryptoJS.AES.encrypt(messageHex, keyHex, {
           mode: CryptoJS.mode.ECB,
-          padding: CryptoJS.pad.Pkcs7,
+          padding: CryptoJS.pad.Pkcs7
         });
         return encrypted.toString();
       }
@@ -32,7 +32,7 @@
         var keyHex = CryptoJS.enc.Base64.parse(secretKey);
         var decrypt = CryptoJS.AES.decrypt(textBase64, keyHex, {
           mode: CryptoJS.mode.ECB,
-          padding: CryptoJS.pad.Pkcs7,
+          padding: CryptoJS.pad.Pkcs7
         });
         return CryptoJS.enc.Utf8.stringify(decrypt);
       }
@@ -84,7 +84,7 @@
 
 <script>
 export default {
-  name: "weak_password",
+  name: "weak_password"
 };
 </script>
 
