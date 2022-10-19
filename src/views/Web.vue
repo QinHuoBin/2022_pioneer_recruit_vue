@@ -4,6 +4,8 @@
     <br />
     <router-link to="/weak_password">weak password</router-link>
     <br />
+    <router-link to="/knife">砍亿刀</router-link>
+    <br />
   </nav>
 </template>
 
