@@ -40,7 +40,19 @@ const routes = [
     path: "/misc",
     name: "Misc",
     component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Misc.vue"),
+  },
+  {
+    path: "/question",
+    name: "question",
+    component: () =>
       import(/* webpackChunkName: "about" */ "../views/question.vue"),
+  },
+  {
+    path: "/info",
+    name: "info",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/info.vue"),
   },
   {
     path: "/bin",
