@@ -16,6 +16,9 @@
     <button disabled onclick="on_click_btn()" id="btn">
       Click me and get the flag.
     </button>
+    <p>
+      hint:按钮是灰的？点不开？没关系，请补充一下html和浏览器的相关知识再来看看
+    </p>
   </div>
 </template>
 
