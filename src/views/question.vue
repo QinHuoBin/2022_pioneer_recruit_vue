@@ -8,13 +8,13 @@
     <h1>鸭子戏水</h1>
     <p>
       如图，用任一方法计算概率，并说说你的思路。<br />
-      <img src="../assets/ducks_problem.jpg" />
+      <img src="../assets/ducks_problem.jpg" style="max-width: 350px"/>
     </p>
 
     <h1>default.png</h1>
     <p>
       著名游戏厂商R星的页面出现了奇怪的问题，作为优秀hacker的你当然有望表知里的能力，你能写出导致这个问题发生的逻辑吗？可用伪代码或任一程序语言进行描述，说得通即可。<br />
-      <img src="../assets/default_problem.jpg" />
+      <img src="../assets/default_problem.jpg" style="max-width: 700px"/>
     </p>
   </div>
 </template>

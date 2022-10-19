@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <img alt="Vue logo" src="../assets/logo.jpeg" style="max-width: 350px" />
     <div>
       <h3>2022年东北大学先锋网络中心面前题</h3>
       Web: 网络题<br />
