@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <img alt="Vue logo" src="../assets/logo.jpeg" style="max-width: 350px" />
     <div>
       <h3>东北大学先锋网络中心面前题</h3>
       <p>网络部是一个为<b>先锋网</b>服务而设立的网络技术部门</p>
